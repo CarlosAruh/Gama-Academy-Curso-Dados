@@ -10,9 +10,9 @@ public class Cadastro2 {
         Scanner scanner = new Scanner(System.in);
 
         while (contador <= 3) {
-            System.out.print("Digite o nome do " + contador + "* carro: ");
+            System.out.print("Digite o nome do " + contador + "º carro: ");
             carros[contador - 1] = scanner.nextLine();
-            System.out.print("Digite a marca do " + contador + "* carro: ");
+            System.out.print("Digite a marca do " + contador + "º carro: ");
             marcas[contador - 1] = scanner.nextLine();
             contador++;
         }
